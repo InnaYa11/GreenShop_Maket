@@ -1,3 +1,50 @@
+@font-face {
+    font-family: 'cera_proregular';
+    src: url('../fonts/cerapro-regular-webfont.eot');
+    src: url('../fonts/cerapro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/cerapro-regular-webfont.woff2') format('woff2'),
+    url('../fonts/cerapro-regular-webfont.woff') format('woff'),
+    url('../fonts/cerapro-regular-webfont.ttf') format('truetype'),
+    url('../fonts/cerapro-regular-webfont.svg#cera_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'cera_problack';
+    src: url('../fonts/cerapro-black-webfont.eot');
+    src: url('../fonts/cerapro-black-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/cerapro-black-webfont.woff2') format('woff2'),
+    url('../fonts/cerapro-black-webfont.woff') format('woff'),
+    url('../fonts/cerapro-black-webfont.ttf') format('truetype'),
+    url('../fonts/cerapro-black-webfont.svg#cera_problack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'cera_promedium';
+    src: url('../fonts/cerapro-medium-webfont.eot');
+    src: url('../fonts/cerapro-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/cerapro-medium-webfont.woff2') format('woff2'),
+    url('../fonts/cerapro-medium-webfont.woff') format('woff'),
+    url('../fonts/cerapro-medium-webfont.ttf') format('truetype'),
+    url('../fonts/cerapro-medium-webfont.svg#cera_promedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'cera_probold';
+    src: url('../fonts/cerapro-bold-webfont.eot');
+    src: url('../fonts/cerapro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/cerapro-bold-webfont.woff2') format('woff2'),
+    url('../fonts/cerapro-bold-webfont.woff') format('woff'),
+    url('../fonts/cerapro-bold-webfont.ttf') format('truetype'),
+    url('../fonts/cerapro-bold-webfont.svg#cera_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -32,6 +79,7 @@
         color: #fff;
         text-decoration: none;
         padding: 10px 17px;
+        font-family: 'cera_promedium';
     }
     header nav li{
         margin-right: 50px;
@@ -43,6 +91,7 @@
         font-weight: 400;
         font-size: 16px;
         color: #3d3d3d;
+        font-family: 'cera_proregular';
     }
     header nav li:after{
         height: 3px;
@@ -65,6 +114,14 @@
         align-items: center;
         max-width: 1200px;
     }
+        .banner p{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 171%;
+            color: #727272;
+            margin-bottom: 44px;
+            font-family: 'cera_proregular';
+        }
     .banner article{
         max-width: 557px;
         display: inline-block;
@@ -84,15 +141,34 @@
         margin-bottom: 325px;
         margin-left: 68px;
         padding: 10px 17px;
+        font-family: 'cera_probold';
     }
     main article h4{
         margin-left: 68px;
         margin-bottom: 43px;
         padding-bottom: 5px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 114%;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #3d3d3d;
+        font-family: 'cera_probold';
     }
     main article h1{
+        font-weight: 900;
+        font-size: 70px;
+        line-height: 100%;
+        text-transform: uppercase;
+        color: #3d3d3d;
         margin-left: 68px;
         margin-bottom: 43px;
+        width: 530px;
+        height: 140px;
+        font-family: 'cera_problack';
+    }
+    main article span{
+        color: #46a358;
     }
     .text{
         margin-left: 68px;
