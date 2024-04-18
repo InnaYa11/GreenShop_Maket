@@ -187,6 +187,8 @@
 }
 .categories .right_content{
     display: block;
+    max-width: 840px;
+    max-height: 1190px;
 }
 .categories .right_content .flex{
     display: flex;
