@@ -186,12 +186,7 @@
     min-height: 774px;
 }
 .categories .right_content{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: space-between;
-    max-width: 840px;
-    max-height: 1190px;
+    display: block;
 }
 .categories .right_content .flex{
     display: flex;
@@ -200,26 +195,12 @@
 .categories .right_content .flex nav li{
     margin-right: 300px;
 }
-.categories .right_content article{
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 89%;
-    color: #46a358
-}
 .categories .right_content nav li:after{
     background-color: transparent;
     width: 100%;
     content: "";
     display: block;
     margin-top: 22px;
-}
-.categories .right_content article h4{
-    width: 250px;
-    height: 250px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 100%;
-    color: #3d3d3d;
 }
 .categories right_content nav{
     font-weight: 700;
@@ -231,7 +212,6 @@
     font-weight: 400;
     font-size: 16px;
     color: #3d3d3d;
-
     font-family: 'cera_proregular';
     text-decoration: none;
 }
