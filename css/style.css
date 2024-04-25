@@ -175,6 +175,17 @@ main article h1{
 .categories .left_sidebar{
     max-width: 310px;
     min-height: 774px;
+    list-style: none;
+}
+    .categories .container .left_sidebar img{
+        margin-top: 774px;
+        margin-left: 106px;
+    }
+.categories .container .left_sidebar nav h3{
+    padding-bottom: 20px;
+}
+.categories .container .left_sidebar nav li{
+    padding-bottom: 20px;
 }
 .categories .container .left_sidebar .reference a{
     text-decoration: none;
@@ -192,6 +203,7 @@ main article h1{
     display: flex;
 }
 .categories .right_content li:after{
+.categories .right_content nav li:after{
     background-color: transparent;
     width: 100%;
     content: "";
@@ -230,6 +242,12 @@ main article h1{
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #3d3d3d;
+    font-family: 'cera_proregular';
+}
+.container ul{
+    list-style: none;
+}
+.container .flex nav li a{
     font-family: 'cera_probold';
 }
 .categories .right_content .flex_2 article{
@@ -244,6 +262,7 @@ main article h1{
 }
 .container .flex nav li a{
     text-decoration: none;
+    content: "";
     content: "";
 }
 .categories .right_content article{
