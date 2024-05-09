@@ -62,6 +62,26 @@
     header ul{
         list-style: none;
     }
+    header nav ul .dropdown{
+        display: block;
+        background: #edf6ee;
+        position: absolute;
+        top: 95px;
+        opacity: 0;
+        font-weight: 400;
+        font-size: 16px;
+        color: #3d3d3d;
+    }
+header nav ul li .drop{
+    position: relative;
+}
+header nav ul li.drop:hover .dropdown{
+opacity: 1;
+    transition: 0.5s;
+}
+header nav ul .dropdown li{
+    display: block;
+}
     header nav li a{
         text-decoration: none;
     }
